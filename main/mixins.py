@@ -29,8 +29,6 @@ def Directions(*args, **kwargs):
 	if directions["status"] == "OK":
 
 		route = directions["routes"][0]["legs"][0]
-		print(route)
-		print(route["distance"]["text"])
 		origin = route["start_address"]
 		destination = route["end_address"]
 		distance = route["distance"]["text"]

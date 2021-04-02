@@ -103,9 +103,6 @@ function CalcRoute(){
           .join('&');
 
       url = '/map?' + query
-
-      console.log(url)
-
       window.location.assign(url)
     }
 

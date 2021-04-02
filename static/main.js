@@ -1,14 +1,3 @@
-function showPword() {
-  var x = document.getElementsByClassName("password");
-  for (let i = 0; i < x.length; i++){
-      if (x[i].type === "password") {
-        x[i].type = "text";
-      } else {
-        x[i].type = "password";
-      }
-  }
-}
-
 function DirectionsToggle(){
   var el = $('#dir-toggle');
   var dir_table = $('#dir-table')

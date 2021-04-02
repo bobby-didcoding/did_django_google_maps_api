@@ -31,7 +31,7 @@ function calculateAndDisplayRoute(directionsService, directionsDisplay) {
       } else {
 
         alert('Directions request failed due to ' + status);
-        // window.location.assign("/route")
+        window.location.assign("/route")
       }
     });
 }
