@@ -1,5 +1,5 @@
 # did_django_google_maps_api
-Django project with a basic user authentication
+Django project that uses Googles APIs to auto populate fields, display maps and routes
 
 1) cd to development directory
 2) mkvirtualenv did_django_google_maps_api
