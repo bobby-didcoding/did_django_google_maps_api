@@ -11,7 +11,7 @@ body, html, .map-container {
 }
 
 #map-route {
-  height: 75%;
+  height: 50%;
   }
 
 .logo {
@@ -30,6 +30,7 @@ ul.sidenav {
   height: 100%;
   overflow: auto;
 }
+ 
 
 ul.sidenav li a {
   display: block;
@@ -47,7 +48,9 @@ ul.sidenav li a:hover:not(.active) {
   background-color: #555;
   color: white;
 }
-
+ul.sidenav li label{
+  margin-top: 50px;
+}
 .div-container {
 
   margin-left: 25%;
@@ -104,7 +107,7 @@ input[type=text], input[type=email], input[type=password], select, textarea {
   font-family: 'Courier Prime', monospace;
 }
 
-select.selection option,
+select.selection option
 {
   color: #9c07b6;
   font-family: 'Courier Prime', monospace;

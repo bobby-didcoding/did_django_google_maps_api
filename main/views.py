@@ -26,7 +26,8 @@ def map(request):
 		lat_b = lat_b,
 		long_b=long_b
 		)
-
+	#soc0=form.cleaned_data['namesoc0']
+    #    modelsoc.function
 	context = {
 	"google_api_key": settings.GOOGLE_API_KEY,
 	"lat_a": lat_a,
@@ -36,6 +37,6 @@ def map(request):
 	"origin": f'{lat_a}, {long_a}',
 	"destination": f'{lat_b}, {long_b}',
 	"directions": directions,
-
+	#'soc0'=xxx
 	}
 	return render(request, 'main/map.html', context)

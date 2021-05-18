@@ -13,8 +13,9 @@
 {% block extend_nav %} 
 
 <ul class="sidenav">
-  <li><a href="{% url 'main:route' %}">Demo Routing</a></li>
-  <li><a class="active" href="#map">Demo Map</a></li>
+  
+  <li><a href="{% url 'main:route' %}">Informations de l'usager</a></li>
+  <li><a class="active" href="#map">Démmarer le test</a></li>
 </ul>
 
 {% endblock %}
@@ -22,7 +23,7 @@
 
 {% block content %}
 
-<h3 id="map">Django Google Maps API Demo - Map</h3>
+<h3 id="map">Alertes/Recommandations</h3>
 
 <div class="container">
 
@@ -94,10 +95,10 @@
 <script type="text/javascript">
 
     var google_api_key = "{{google_api_key|safe}}";
-    var lat_a = {{lat_a|safe}};
-    var long_a = {{long_a|safe}};
-    var lat_b = {{lat_a|safe}};
-    var long_b = {{long_b|safe}};
+    var lat_a = "{{lat_a|safe}}";
+    var long_a ="{{long_a|safe}}";
+    var lat_b = "{{lat_a|safe}}";
+    var long_b = "{{long_b|safe}}";
     var origin = "{{origin|safe}}";
     var destination = "{{destination|safe}}";
     var directions = {{directions|safe}}
